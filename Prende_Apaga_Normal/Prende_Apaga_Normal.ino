@@ -1,10 +1,10 @@
 void setup() {
-  pinMode(led, OUTPUT);
+  pinMode(2, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(led, HIGH); // Encender
+  digitalWrite(2, HIGH); // Encender
   delay(1000);             // Esperar 1 segundo (bloquea)
-  digitalWrite(led, LOW);  // Apagar
+  digitalWrite(2, LOW);  // Apagar
   delay(1000);             // Esperar 1 segundo (bloquea)
 }
