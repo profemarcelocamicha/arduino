@@ -59,4 +59,4 @@ void loop() {
   digitalWrite(rojoA, LOW); 
   digitalWrite(amarilloA, HIGH); 
   delay(2000);
- }
+  }
